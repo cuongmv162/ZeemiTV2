@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_percent_27">
+
+        <ImageView
+            android:id="@+id/adapter_live_cover_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop" />
+
+        <View
+            android:layout_width="@dimen/height_percent_2"
+            android:layout_height="@dimen/height_percent_2"
+            android:layout_gravity="top|left"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/red_circle" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/adapter_profile_picture"
+                android:layout_width="@dimen/width_percent_4"
+                android:layout_height="@dimen/width_percent_4"
+                android:layout_marginTop="@dimen/height_percent_2"
+                android:scaleType="fitCenter"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/adapter_channel_name"
+                style="@style/TextWhite18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/adapter_profile_picture"
+                android:layout_marginLeft="@dimen/width_percent_point_7"
+                android:text="Hello World" />
+
+            <TextView
+                android:id="@+id/adapter_user_name"
+                style="@style/TextWhite12sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/adapter_channel_name"
+                android:layout_marginLeft="@dimen/width_percent_point_7"
+                android:layout_toRightOf="@+id/adapter_profile_picture"
+                android:text="Hello World" />
+            <RatingBar
+                android:id="@+id/adapter_rating"
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/adapter_user_name"
+                android:layout_marginLeft="@dimen/width_percent_point_7"
+                android:layout_toRightOf="@+id/adapter_profile_picture"
+                android:numStars="5" />
+
+            <TextView
+                android:id="@+id/adapter_followers"
+                style="@style/TextWhite14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="@dimen/width_percent_point_7"
+                android:layout_below="@+id/adapter_user_name"
+                android:drawableLeft="@drawable/like"
+                android:gravity="right"
+                android:text="Hello World" />
+        </RelativeLayout>
+    </FrameLayout>
+</RelativeLayout>

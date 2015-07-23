@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ZeemiTV</string>
+
+
+    <string name="followers">followers</string>
+    <string name="live">live</string>
+    <string name="upcoming">upcoming</string>
+    <string name="popular">popular</string>
+
+</resources>

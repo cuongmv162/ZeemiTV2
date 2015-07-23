@@ -1,0 +1,57 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="one_or_two_pixel">2dp</dimen>
+    <dimen name="two_or_four_pixel">4dp</dimen>
+    <dimen name="width_percent_point_4">4dp</dimen>
+    <dimen name="width_percent_point_7">7dp</dimen>
+    <dimen name="width_percent_15.5">149dp</dimen>
+    <dimen name="width_percent_1.5">14dp</dimen>
+    <dimen name="width_percent_2">19dp</dimen>
+    <dimen name="width_percent_3">29dp</dimen>
+    <dimen name="width_percent_4">38dp</dimen>
+    <dimen name="width_percent_5">48dp</dimen>
+    <dimen name="width_percent_6">58dp</dimen>
+    <dimen name="width_percent_7">67dp</dimen>
+    <dimen name="width_percent_8">77dp</dimen>
+    <dimen name="width_percent_9">86dp</dimen>
+    <dimen name="width_percent_10">96dp</dimen>
+
+    <!-- Height Percentages -->
+    <dimen name="height_percent_point_4">3dp</dimen>
+    <dimen name="height_percent_point_6">4dp</dimen>
+    <dimen name="height_percent_1">7dp</dimen>
+    <dimen name="height_percent_2">13dp</dimen>
+    <dimen name="height_percent_3">20dp</dimen>
+    <dimen name="height_percent_4">27dp</dimen>
+    <dimen name="height_percent_5">33dp</dimen>
+    <dimen name="height_percent_6">39dp</dimen>
+    <dimen name="height_percent_7">46dp</dimen>
+    <dimen name="height_percent_7p5">49dp</dimen>
+    <dimen name="height_percent_8">52dp</dimen>
+    <dimen name="height_percent_9">59dp</dimen>
+    <dimen name="height_percent_10">65dp</dimen>
+    <dimen name="height_percent_11">72dp</dimen>
+    <dimen name="height_percent_12">78dp</dimen>
+    <dimen name="height_percent_13">85dp</dimen>
+    <dimen name="height_percent_14">91dp</dimen>
+    <dimen name="height_percent_15">98dp</dimen>
+    <dimen name="height_percent_16">104dp</dimen>
+    <dimen name="height_percent_17">111dp</dimen>
+    <dimen name="height_percent_18">117dp</dimen>
+    <dimen name="height_percent_19">124dp</dimen>
+    <dimen name="height_percent_20">130dp</dimen>
+    <dimen name="height_percent_21">137dp</dimen>
+    <dimen name="height_percent_22">143dp</dimen>
+    <dimen name="height_percent_23">150dp</dimen>
+    <dimen name="height_percent_24">157dp</dimen>
+    <dimen name="height_percent_25">163dp</dimen>
+    <dimen name="height_percent_26">170dp</dimen>
+    <dimen name="height_percent_27">176dp</dimen>
+    <dimen name="height_percent_28">183dp</dimen>
+    <dimen name="height_percent_29">190dp</dimen>
+    <dimen name="height_percent_30">196dp</dimen>
+
+</resources>
